@@ -3,7 +3,7 @@ import noUiSlider from "nouislider";
 import "nouislider/dist/nouislider.css";
 import { memo } from "react";
 import { DataContext } from "../../pages/_app";
-import wNumb from "wNumb";
+import wNumb from "wnumb";
 
 const SliderPrice = (props) => {
   let slider = useRef();
